@@ -123,12 +123,34 @@
     margin: auto;
     padding: 50px;
 }
-.flower-info-div{
+
+.flower-info-div {
     display: flex;
     padding-left: 381px;
     padding-right: 381px;
     justify-content: space-around;
     gap: 300px;
     margin: auto;
-    
+
+}
+
+.second-page-box {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 220px 225px 100px 225px;
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.flower-info-des {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
 }
