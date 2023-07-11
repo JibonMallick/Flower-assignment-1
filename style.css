@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .first-page {
@@ -89,7 +91,7 @@
 
 .photo {
     display: flex;
-    padding-top: 20px;
+    padding-top: 60px;
     margin: auto;
     gap: 30px;
     justify-content: center;
@@ -239,15 +241,16 @@
     padding-left: 240px;
     padding-right: 240px;
     gap: 30px;
+    
 
 }
 
 .subscribe-bar {
-    width: 1480px;
+    width: 1500px;
     height: 300px;
     background-image: url("./Rectangle\ 9.png");
     background-repeat: no-repeat;
-    margin: 100px 240px 100px 240px;
+    margin: 100px 290px 100px 250px;
 
 }
 
@@ -261,7 +264,7 @@
     line-height: normal;
     padding-left: 533px;
     padding-right: 533px;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .sb-para {
@@ -276,12 +279,12 @@
 
 .sb-text-box {
 
-    align-items: center;
-    justify-content: center;
+
+
     width: 700px;
     height: 60px;
     border: none;
-    padding-bottom: 10px;
+
 }
 
 .box-t,
@@ -290,8 +293,9 @@
     justify-content: center;
     padding-left: 200px;
     gap: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     padding-top: 8px;
+    gap: 5px;
 }
 
 .sb-button {
@@ -357,4 +361,41 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.Ip-txt {
+    color: white;
+}
+
+.complain-box {
+    height: 50vh;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px;
+}
+.contact-us{
+    text-align: center;
+    padding-top: 70px;
+}
+    
+
+.call-icon-pic{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 780px;
+    
+}
+.call-icon{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.cu{
+    padding-bottom: 20px;
+    color: #E55473;
+}
+.sn{
+    padding-bottom: 20px;
 }
